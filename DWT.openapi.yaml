@@ -4278,8 +4278,8 @@ components:
           type: string
           description: >
             If caps and settings exist at the same time, we will apply settings
-            first, then caps. only for twain scanner, returned by
-            /device/scanners/twain/settings
+            first, then caps. It is only for twain scanner. We can get the settings via
+            /device/scanners/jobs/{jobuid}/scanner/settings
         checkFeederLoaded:
           type: boolean
           description: >-
