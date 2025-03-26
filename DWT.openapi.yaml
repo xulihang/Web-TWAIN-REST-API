@@ -273,7 +273,7 @@ paths:
               example:
                 code: -1004
                 message: >-
-                  Source is connected to maximum supported number of
+                  The source is connected to the maximum supported number of
                   applications.
                 statusCode: 423
           headers: {}
@@ -348,7 +348,7 @@ paths:
           headers: {}
         '410':
           description: >-
-            The job was deleted. If the service restarted, all the jobs info
+            The job was deleted. If the service restarted and all the jobs
             were lost, it will return 404.
           content:
             application/json:
