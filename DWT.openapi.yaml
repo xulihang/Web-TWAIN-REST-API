@@ -244,14 +244,14 @@ paths:
                 statusCode: 400
           headers: {}
         '403':
-          description: License is invalid.
+          description: The license is invalid.
           content:
             application/json:
               schema: *ref_0
               example:
                 code: -2800
                 message: >-
-                  The current product key is empty or invalid, please contact
+                  The current product key is empty or invalid. Please contact
                   the site administrator.
                 statusCode: 403
           headers: {}
