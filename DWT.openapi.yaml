@@ -96,9 +96,9 @@ paths:
       security: []
   /server/version:
     get:
-      summary: Get the server api version.
+      summary: Get the server API version.
       deprecated: false
-      description: In future, client may be pass api version to call different version api.
+      description: In future, client may be pass API version to call different version api.
       operationId: getServerVersion
       tags:
         - Server Control
@@ -113,7 +113,7 @@ paths:
                 properties:
                   version:
                     type: string
-                    description: server api version.
+                    description: server API version.
                     examples:
                       - '20240719'
                   compatible:
