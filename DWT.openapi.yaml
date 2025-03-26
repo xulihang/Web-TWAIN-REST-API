@@ -42,10 +42,10 @@ paths:
           headers: {}
       security: []
     patch:
-      summary: Update only sepcified server settings.
+      summary: Update only specified server settings.
       deprecated: false
       description: >
-        Update only sepcified server settings. Some settings can only be updated
+        Update only specified server settings. Some settings can only be updated
         by the admin.
       operationId: patchServerSettings
       tags:
