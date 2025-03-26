@@ -37,7 +37,7 @@ paths:
                 $ref: '#/components/schemas/Error'
               example:
                 code: -2112
-                message: This endpoint only supportss GET and PATCH.
+                message: This endpoint only supports GET and PATCH.
                 statusCode: 405
           headers: {}
       security: []
@@ -98,7 +98,7 @@ paths:
     get:
       summary: Get the server API version.
       deprecated: false
-      description: In future, client may be pass API version to call different version api.
+      description: In the future, the client can pass the API version to call different API versions.
       operationId: getServerVersion
       tags:
         - Server Control
