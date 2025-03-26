@@ -616,12 +616,12 @@ paths:
       security: []
   /device/scanners/jobs/{jobuid}/scanner/settings:
     get:
-      summary: Retrieve current scanner settings.
+      summary: Retrieve the settings of the scanner specified in the scan job.
       deprecated: false
       description: >
-        You can get current scanner settings. Only support TWAIN scanner, and
-        only valid when the job is pending. We will call EnableSourceUI to get
-        the settings. 
+        You can get the scanner settings. It only supports TWAIN scanners, and
+        it is only valid when the job is pending. We will call EnableSourceUI to get
+        the settings.
       operationId: getCurrentScannerSettings
       tags:
         - Scanner Control
@@ -641,7 +641,7 @@ paths:
             type: boolean
             default: true
             description: >
-              If true, will show the UI for user to set the scanner settings. If
+              If true, will show the UI for the user to set the scanner settings. If
               false, will not show the UI.
       responses:
         '200':
