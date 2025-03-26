@@ -14,7 +14,7 @@ paths:
       summary: Get the server settings.
       deprecated: false
       description: |
-        Get the server settings. Some settings can only be retrived by admin.
+        Get the server settings. Some settings can only be retrieved by admin.
       operationId: getServerSettings
       tags:
         - Server Control
@@ -135,7 +135,7 @@ paths:
       security: []
   /device/scanners:
     get:
-      summary: Retrive a list scanners
+      summary: Retrieve a list scanners
       deprecated: false
       description: ''
       operationId: getScanners
@@ -280,7 +280,7 @@ paths:
       security: []
   /device/scanners/jobs/{jobuid}:
     get:
-      summary: Retrive the scan job status.
+      summary: Retrieve the scan job status.
       deprecated: false
       description: |
         You can get the job status.
@@ -520,7 +520,7 @@ paths:
       security: []
   /device/scanners/jobs/{jobuid}/scanner/capabilities:
     get:
-      summary: Retrive current scanner capabilities in the scan job.
+      summary: Retrieve current scanner capabilities in the scan job.
       deprecated: false
       description: >
         You can get the current scanner capabilities in the job, but only valid
@@ -616,7 +616,7 @@ paths:
       security: []
   /device/scanners/jobs/{jobuid}/scanner/settings:
     get:
-      summary: Retrive current scanner settings.
+      summary: Retrieve current scanner settings.
       deprecated: false
       description: >
         You can get current scanner settings. Only support TWAIN scanner, and
@@ -922,9 +922,9 @@ paths:
       security: []
   /storage/documents/{documentuid}:
     get:
-      summary: Retrive document info
+      summary: Retrieve document info
       deprecated: false
-      description: retrive the document info, include pages info.
+      description: retrieve the document info, include pages info.
       operationId: getDocumentInfo
       tags:
         - Document Management
@@ -1069,7 +1069,7 @@ paths:
       security: []
   /storage/documents/{documentuid}/content:
     get:
-      summary: Retrive the document content with specified format.
+      summary: Retrieve the document content with specified format.
       deprecated: false
       description: >
         Can specific one or more pages with page index or uid,  all the whole
