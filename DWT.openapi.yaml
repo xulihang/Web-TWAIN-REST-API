@@ -470,8 +470,8 @@ paths:
       summary: Delete the scan job
       deprecated: false
       description: >
-        if the job is running, the job will be canceled first, and then be
-        deleted, include all scanned documents.
+        If the job is running, the job will be canceled first, and then be
+        deleted, including all scanned documents.
       operationId: deleteScanJob
       tags:
         - Scanner Control
