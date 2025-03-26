@@ -7,7 +7,7 @@ tags:
   - name: Server Control
   - name: Scanner Control
   - name: Document Management
-  - name: Document Process
+  - name: Document Processing
 paths:
   /server:
     get:
@@ -1524,18 +1524,18 @@ paths:
       security: []
   /process/{operation}:
     post:
-      summary: Create a new process for specified source.
+      summary: Create a new processing for specified source.
       deprecated: false
       description: >
         Some operation can be implemented by external module.  Currently,
         check-blanck is windows only.
       operationId: createDocProcess
       tags:
-        - Document Process
+        - Document Processing
       parameters:
         - name: operation
           in: path
-          description: type of process
+          description: type of processing
           required: true
           example: ''
           schema:
@@ -1562,7 +1562,7 @@ paths:
         content:
           application/json:
             schema:
-              description: different process has different parameter.
+              description: different processings has different parameter.
               $ref: '#/components/schemas/CreateProcessOptions'
             example: ''
       responses:
