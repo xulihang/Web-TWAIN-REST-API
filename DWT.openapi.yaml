@@ -389,9 +389,9 @@ paths:
                     - running
                     - canceled
                   description: >
-                    update the job status.  If the job is running, only accept
-                    Canceled, the job will be cancelled. If the job is pending,
-                    only accept Running, the job will be started.
+                    Update the job status. If the job is running, it only accepts
+                    Canceled to cancel the job. If the job is pending, it only accepts
+                    Running to start the job.
               required:
                 - status
             example: ''
