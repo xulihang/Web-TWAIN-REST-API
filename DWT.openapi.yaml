@@ -520,10 +520,10 @@ paths:
       security: []
   /device/scanners/jobs/{jobuid}/scanner/capabilities:
     get:
-      summary: Retrieve current scanner capabilities in the scan job.
+      summary: Retrieve the capabilities of the scanner specified in the scan job.
       deprecated: false
       description: >
-        You can get the current scanner capabilities in the job, but only valid
+        You can get the scanner capabilities in the job, but it is only valid
         when the job is pending.
       operationId: getCurrentScannerCapabilities
       tags:
