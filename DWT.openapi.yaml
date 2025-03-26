@@ -145,7 +145,7 @@ paths:
         - name: type
           in: query
           description: >
-            device type, can be one or a combination. default return
+            Device type. It can be one type or a combination. The default uses
             TWAIN/TWAIN64/WIA/ICA/SANE.
           required: false
           schema: &ref_2
