@@ -523,7 +523,7 @@ paths:
       summary: Retrieve the capabilities of the scanner specified in the scan job.
       deprecated: false
       description: >
-        You can get the scanner capabilities in the job, but it is only valid
+        You can get the capabilities of scanner specified in the job, but it is only valid
         when the job is pending.
       operationId: getCurrentScannerCapabilities
       tags:
