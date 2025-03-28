@@ -924,7 +924,7 @@ paths:
     get:
       summary: Retrieve document info
       deprecated: false
-      description: retrieve the document info, including pages info.
+      description: Retrieve the document info, including pages info.
       operationId: getDocumentInfo
       tags:
         - Document Management
@@ -1001,7 +1001,7 @@ paths:
     delete:
       summary: Delete the document.
       deprecated: false
-      description: all the data will be deleted.
+      description: All the data will be deleted.
       operationId: deleteDocument
       tags:
         - Document Management
@@ -1449,7 +1449,7 @@ paths:
     delete:
       summary: Delete the specified page.
       deprecated: false
-      description: delete the page by uid or page number.
+      description: Delete the page by uid or page number.
       operationId: deleteDocPage
       tags:
         - Document Management
