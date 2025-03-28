@@ -874,8 +874,8 @@ paths:
       summary: Create a new document.
       deprecated: false
       description: >-
-        The document will be stored on the Dynamic Web TWAIN Service working
-        folder, all the contents will be encrypted.
+        The document will be stored in the Dynamic Web TWAIN Service working
+        folder and all the contents will be encrypted.
       operationId: createDocument
       tags:
         - Document Management
