@@ -196,15 +196,12 @@ paths:
       description: >
         You can scan with the specified scanner. If the scanner is not specified, the last used scanner or the defalut scanner will be used. You
         can set capabilities of the scanner. You can show the scanner ui if you are
-        operating on the machine running Dynamic Web TWAIN Service,  Or you are
-        accessing remotely, but Dynamic Web TWAIN Service must be run as a
-        normal user. You can get scanned image with the job uid, or save to the
-        specified document. You can cretae a pending job with the specified
+        operating on the machine running Dynamic Web TWAIN Service. You can get scanned image with the job uid, or save to the
+        specified document. You can create a pending job with the specified
         scanner. One scanner can only have one pending job. If the scanner is
         shared, it is recommended to create a pending job for the specified scanner.
         Default other requests for the job will only allow the domain when job
         created.
-
 
         Once the job was created, you have to delete the job manually unless you
         set a jobTimeout and it times out. 
