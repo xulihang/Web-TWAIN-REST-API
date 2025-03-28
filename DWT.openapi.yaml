@@ -781,9 +781,9 @@ paths:
       summary: Get the next page for a specific job.
       deprecated: false
       description: >
-        Get next scanned page content.  If scanned page not ready, it will not
-        return until the page is ready. If response code is 200, can try to get
-        next until reponse code is 204.
+        Get the next scanned page content. If the scanned page not ready, it will not
+        return until the page is ready. If the response code is 200, we can try to get
+        next until the reponse code is 204.
       operationId: getNextScannedPage
       tags:
         - Scanner Control
