@@ -1449,7 +1449,7 @@ paths:
     delete:
       summary: Delete the specified page.
       deprecated: false
-      description: the page can be uid or page number.
+      description: delete the page by uid or page number.
       operationId: deleteDocPage
       tags:
         - Document Management
