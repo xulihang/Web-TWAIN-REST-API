@@ -547,7 +547,7 @@ paths:
               caps=5,2,1.  If no pages specified, return all capabilities.
             externalDocs:
               url: >-
-                https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftdwtenumdwt_cap
+                https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftDWTenumDWT_cap
       responses:
         '200':
           description: Successful operation
@@ -1138,10 +1138,10 @@ paths:
           in: query
           description: >-
             for tiff, please refer to
-            https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftdwtenumdwt_tiffcompressiontype
+            https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftDWTenumDWT_tiffcompressiontype
 
             for pdf, please refer to
-            https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftdwtenumdwt_pdfcompressiontype
+            https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftDWTenumDWT_pdfcompressiontype
           required: false
           schema:
             type: integer
@@ -4184,7 +4184,7 @@ components:
     ScannerType:
       externalDocs:
         url: >-
-          https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftdwtenumdwt_devicetype
+          https://www.dynamsoft.com/web-twain/docs/info/api/Dynamsoft_Enum.html#dynamsoftDWTenumDWT_devicetype
       type: integer
       format: int32
       description: |
@@ -4451,7 +4451,7 @@ components:
         source:
           oneOf:
             - type: string
-              description: dwt image url. If it's dwt image url, we should think cors.
+              description: DWT image url. If it's DWT image url, we should think cors.
               examples:
                 - >-
                   https://127.0.0.1:18623/api/device/scanners/jobs/dd40716d-48d1-4d32-89f7-1d53f9665d91/next-page?page=19522d0c5282
