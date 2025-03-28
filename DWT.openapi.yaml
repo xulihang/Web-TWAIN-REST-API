@@ -1562,7 +1562,7 @@ paths:
         content:
           application/json:
             schema:
-              description: different processings has different parameter.
+              description: different processings have different parameters.
               $ref: '#/components/schemas/CreateProcessOptions'
             example: ''
       responses:
@@ -4112,7 +4112,7 @@ components:
         statusCode:
           type: number
           description: >-
-            http status code, 401 is authentication error(missing auth, or auth
+            http status code, 401 is authentication error (missing auth, or auth
             is invalid), 403 is license error or no access, e.g. non-admin want
             to access admin resource
         code:
@@ -4228,7 +4228,7 @@ components:
           default: true
           description: >-
             If true, will run the job at once after created. otherwise the job
-            will be created but not run, status is pending,  and the scanner
+            will be created but not run, status is pending, and the scanner
             will be locked, if the scanner is a twain source, the source will be
             opened automatically. Recommend to set it as false, avoid your
             papers may be scanned by others.
