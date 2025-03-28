@@ -1110,7 +1110,7 @@ paths:
             maximum: 100
             default: 80
             description: >-
-              range is 0 < quality <= 100. only valid for jpeg/jpeg2000
+              range is 0 to 100. only valid for jpeg/jpeg2000
               compression.
         - name: pages
           in: query
