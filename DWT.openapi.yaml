@@ -1345,7 +1345,7 @@ paths:
       summary: Insert new page(s) into an existing document.
       deprecated: false
       description: >
-        By default, it will append to the end of document. for multiple tiff, we
+        By default, it will append the pages to the end of document. for multiple tiff, we
         will split it into multiple images. And for multiple pdf, we will also
         split it into multiple pages and save raw content.
       operationId: insertDocPage
