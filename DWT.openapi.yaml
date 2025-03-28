@@ -1524,11 +1524,11 @@ paths:
       security: []
   /process/{operation}:
     post:
-      summary: Create a new processing for specified source.
+      summary: Create a new processing for a specified source.
       deprecated: false
       description: >
-        Some operation can be implemented by external module.  Currently,
-        check-blanck is windows only.
+        Some operations can be implemented by external modules. Currently,
+        check-blank is Windows only.
       operationId: createDocProcess
       tags:
         - Document Processing
@@ -1541,7 +1541,7 @@ paths:
           schema:
             type: string
             description: >
-              currently only process dwt url, so we can not need pass index,
+              currently only process DWT urls, so we cannot pass index,
               only has one page. read-barcode can accept a barcode reader
               template settings. and need to pass extra license with header
               X-DICS-LICENSE-KEY. check-blank can accept null or
