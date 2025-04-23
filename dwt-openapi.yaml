@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: DWT
   description: ''
-  version: 1.0.0
+  version: 19.1.0
 tags:
   - name: Server Control
   - name: Scanner Control
@@ -209,7 +209,7 @@ paths:
       tags:
         - Scanner Control
       parameters:
-        - name: X-DICS-LICENSE-KEY
+        - name: DWT-PRODUCT-KEY
           in: header
           description: Product key
           required: true
@@ -933,7 +933,7 @@ paths:
           example: ''
           schema:
             type: string
-        - name: X-DICS-DOC-PASSWORD
+        - name: DWT-DOC-PASSWORD
           in: header
           description: the password of document in storage
           required: false
@@ -1010,7 +1010,7 @@ paths:
           example: ''
           schema:
             type: string
-        - name: X-DICS-DOC-PASSWORD
+        - name: DWT-DOC-PASSWORD
           in: header
           description: the password of document in storage
           required: false
@@ -1252,7 +1252,7 @@ paths:
             externalDocs:
               url: >-
                 https://www.dynamsoft.com/web-twain/docs/info//api/interfaces.html#pdfwsettings
-        - name: X-DICS-DOC-PASSWORD
+        - name: DWT-DOC-PASSWORD
           in: header
           description: the password of document in storage
           required: false
@@ -1356,7 +1356,7 @@ paths:
           example: ''
           schema:
             type: string
-        - name: X-DICS-DOC-PASSWORD
+        - name: DWT-DOC-PASSWORD
           in: header
           description: the password of document in storage
           required: false
@@ -1465,7 +1465,7 @@ paths:
           example: ''
           schema:
             type: string
-        - name: X-DICS-DOC-PASSWORD
+        - name: DWT-DOC-PASSWORD
           in: header
           description: the password of document in storage
           required: false
@@ -1541,14 +1541,14 @@ paths:
               currently only process DWT urls, so we cannot pass index,
               only has one page. read-barcode can accept a barcode reader
               template settings. and need to pass extra license with header
-              X-DICS-LICENSE-KEY. check-blank can accept null or
+              DWT-PRODUCT-KEY. check-blank can accept null or
               {minBlockHeight?: number, maxBlockHeight?: number}. rotate can
               accept {rotation: number, keepSize?: boolean}.
               calculate-skew-angle can accept null.
             enum:
               - check-blank
               - read-barcode
-        - name: X-DICS-LICENSE-KEY
+        - name: DWT-PRODUCT-KEY
           in: header
           description: the license for image processing
           required: false
