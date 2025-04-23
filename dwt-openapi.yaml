@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: DWT
   description: ''
-  version: 19.1.0
+  version: '20250428'
 tags:
   - name: Server Control
   - name: Scanner Control
